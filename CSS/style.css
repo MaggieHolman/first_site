@@ -3,14 +3,14 @@ body {
 }
 
 h1 {
-    font-size: xx-large;
+    font-size: xxx-large;
     font-family: 'Courier New', Courier, monospace;
     color:black;
     text-align: center;
 }
 
 nav {
-    border: 2px solid black;
+    border: 5px solid black;
     background: white;
     text-align: center;
 }
@@ -26,10 +26,19 @@ a {
 }
 
 img {
-    border: 4px solid white;
+    border: 8px solid white;
     margin: 50px;
 }
 
-mainLucy {
+.mainLucy {
     align-content: center;
+}
+
+#skip {
+    position: absolute;
+    left: -500px;
+}
+
+#skip:focus {
+    left: 10spx;
 }
