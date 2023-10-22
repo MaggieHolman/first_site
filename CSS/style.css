@@ -42,7 +42,6 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #f1f1f1;
   }
   
   li a {
@@ -68,9 +67,38 @@ ul {
     color: white;
   }
 
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px; 
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Automatically arrange columns with a minimum width of 200px */
+
+    justify-content: space-evenly; /* Space the columns evenly horizontally */
+    align-items: center; /* Center vertically */
+
+    grid-gap: 20px; /* Adjust the gap between images */
+
+   
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    place-items: center;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+
   @media (max-width: 767px) {
     body {
-      font-size: 14px;
-      background-color: #04AA6D;
+      font-size: 20px;
+      
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
