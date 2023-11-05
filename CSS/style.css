@@ -144,10 +144,6 @@ ul {
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
-    body {
-        background-color: blue;
-    }
-
     .image {
         max-width: 100%; /* Set a maximum width for the images */
         height: auto;    /* Automatically adjust the height to maintain aspect ratio */
@@ -161,6 +157,9 @@ ul {
     .grid-item {
         max-width: 100%;
         height: auto;
+        max-height: 200px; /* Set the maximum height for the scrollable area */
+        overflow: auto; /* Add scrollbars when content overflows the container */
+        border: 1px solid #ccc; /* Optional: Add a border for a clear visual separation */
     }
 
     .grid-container {
@@ -171,6 +170,18 @@ ul {
     .item1, .item2, .item3, .item4 {
         grid-row: auto;
         grid-column: auto;
+    }
+
+    #skip:focus {
+        display: block;
+    }
+
+    .custom-button:hover {
+        background-color: #ff6600; 
+    }
+
+    .custom-button:focus {
+        outline: 2px solid #ff6600;
     }
     
 }
