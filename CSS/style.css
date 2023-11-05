@@ -143,6 +143,37 @@ ul {
     body {
         background-color: blue;
     }
+
+    .image {
+        max-width: 100%; /* Set a maximum width for the images */
+        height: auto;    /* Automatically adjust the height to maintain aspect ratio */
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr); 
+        grid-template-columns: repeat(6, 1fr); 
+        grid-gap: 2px; 
+        justify-content: space-evenly; 
+        align-items: center;
+       
+    }
+    
+    .item1 {
+        grid-column: 2/3;
+    }
+    
+    .item2 {
+        grid-column: 3/4;
+    }
+    
+    .item3 {
+        grid-column: 4/5;
+    }
+    
+    .item4 {
+        grid-column: 5/6;
+    }
     
 }
 
