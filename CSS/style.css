@@ -157,9 +157,6 @@ ul {
     .grid-item {
         max-width: 100%;
         height: auto;
-        max-height: 200px; /* Set the maximum height for the scrollable area */
-        overflow: auto; /* Add scrollbars when content overflows the container */
-        border: 1px solid #ccc; /* Optional: Add a border for a clear visual separation */
     }
 
     .grid-container {
@@ -182,6 +179,12 @@ ul {
 
     .custom-button:focus {
         outline: 2px solid #ff6600;
+    }
+
+    .scroll {
+        max-height: 200px; /* Set the maximum height for the scrollable area */
+        overflow: auto; /* Add scrollbars when content overflows the container */
+        border: 1px solid #ccc; /* Optional: Add a border for a clear visual separation */
     }
     
 }
