@@ -162,6 +162,16 @@ ul {
         max-width: 100%;
         height: auto;
     }
+
+    .grid-container {
+        grid-template-rows: 1fr; /* One row for tablet view */
+        grid-template-columns: repeat(4, 1fr); /* Four columns in one row */
+    }
+
+    .item1, .item2, .item3, .item4 {
+        grid-row: auto;
+        grid-column: auto;
+    }
     
 }
 
