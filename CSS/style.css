@@ -115,6 +115,10 @@ ul {
     place-items: center;
 }
 
+.grid-item2 {
+    text-align: center;
+}
+
 .center {
     display: grid;
     place-items: center;
@@ -151,9 +155,10 @@ ul {
 
     .grid-container {
         display: grid;
+        width: 100%;
         grid-template-rows: repeat(1, 1fr); 
         grid-template-columns: repeat(6, 1fr); 
-        grid-gap: 2px; 
+        grid-gap: 5px; 
         justify-content: space-evenly; 
         align-items: center;
        
