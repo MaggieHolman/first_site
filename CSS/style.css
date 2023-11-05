@@ -145,8 +145,8 @@ ul {
 @media (min-width: 768px) and (max-width: 1023px) {
 
     .image {
-        max-width: 100%; /* Set a maximum width for the images */
-        height: auto;    /* Automatically adjust the height to maintain aspect ratio */
+        max-width: 100%; 
+        height: auto;   
     }
 
     .center {
@@ -160,8 +160,8 @@ ul {
     }
 
     .grid-container {
-        grid-template-rows: 1fr; /* One row for tablet view */
-        grid-template-columns: repeat(4, 1fr); /* Four columns in one row */
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(4, 1fr); 
     }
 
     .item1, .item2, .item3, .item4 {
@@ -173,18 +173,26 @@ ul {
         display: block;
     }
 
-    .custom-button:hover {
-        background-color: #ff6600; 
-    }
-
-    .custom-button:focus {
-        outline: 2px solid #ff6600;
-    }
-
     .scroll {
-        max-height: 200px; /* Set the maximum height for the scrollable area */
-        overflow: auto; /* Add scrollbars when content overflows the container */
-        border: 1px solid #ccc; /* Optional: Add a border for a clear visual separation */
+        max-height: 100px; 
+        overflow: auto; 
+        border: 1px solid #ccc;
+    }
+
+    .active {
+        background-color: #ff6600;
+        color: white;
+        text-decoration: underline;
+      }
+
+    li a:hover:not(.active) {
+        background-color: black;
+        color: white;
+    }
+
+    li a:hover {
+        background-color: black;
+        color: white;
     }
     
 }
