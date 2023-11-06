@@ -173,10 +173,10 @@ ul {
         display: block;
     }
 
-    .scroll {
-        max-height: 10px; 
-        overflow: auto; 
-        border: 1px solid #ccc;
+    .scrollable-paragraph {
+        max-height: 200px; /* Set the maximum height for the scrollable area */
+        overflow: auto; /* Add scrollbars when content overflows the container */
+        border: 1px solid #ccc; /* Optional: Add a border for a clear visual separation */
     }
 
     .active {
