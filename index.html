@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href ="CSS/reset.css">
     <link rel = "stylesheet" href ="CSS/style.css">
+    <script type="txt/javascript" src="JavaScript/javaScript.js"></script>
+
     <title>Pets</title>
 </head>
 <body>
     <a href = "#main" id = "skip">Skip to Main</a>
-    <nav>
+    <nav id = "navbar">
         <ul>
             <li><a class = "active" href = "index.html">Home/Pets</a></li>
             <li><a href = "recipes.html">Recipes</a></li>
@@ -24,11 +26,11 @@
             src ="Images/Lucy.JPG" alt = "Calico with white, 
            orange, and black coloring" class = "mainLucy" width = "300"></a>
 
-           <p>Lucy is a 17-year-old calico that I’ve had since I was 5,
+           <p class = "scroll" >Lucy is a 17-year-old calico that I’ve had since I was 5,
              she has pretty much grown up with me my whole life. Even though she’s old she’s still
              kickin’ it and enjoys running around the house at 4am. </p>
 
-           <p>Her favorite foods include anything but her kibble.
+           <p class = "scroll" >Her favorite foods include anything but her kibble.
              She enjoys sunbathing and long naps, along with lots of petting.
               However, she hates getting her stomach rubbed. </p>
 
@@ -58,8 +60,8 @@
         <div class = "grid-item">
             <h1> Finn </h1> 
             <a class = "center" href="Images/Finn_Halloween.jpg"><img src ="Images/Finn_Halloween.jpg" width = "400" alt = "Finn wears a bat costume for halloween"></a> 
-            <p>Finn is a 7 year old grey cat. I feel like no one really knows cat breeds so I’m just gonna go with grey. He loves doing tricks for treats and his favorite is giving high fives to people. He might as well be a dog as he loves the outdoors and meeting new people. I can only describe him as goofy and chaotic. </p>
-            <p>Finn’s biggest enemy is his vet. I don't know whether or not it’s because his vet is an MSU alum, but he doesn’t like him. He actually has to be prescribed a sedative before he goes to the vet office because he’ll suddenly act like he was never a house cat for 7 years.</p> 
+            <p class = "scroll" >Finn is a 7 year old grey cat. I feel like no one really knows cat breeds so I’m just gonna go with grey. He loves doing tricks for treats and his favorite is giving high fives to people. He might as well be a dog as he loves the outdoors and meeting new people. I can only describe him as goofy and chaotic. </p>
+            <p class = "scroll" >Finn’s biggest enemy is his vet. I don't know whether or not it’s because his vet is an MSU alum, but he doesn’t like him. He actually has to be prescribed a sedative before he goes to the vet office because he’ll suddenly act like he was never a house cat for 7 years.</p> 
             
             <h3>Photo Gallery </h3>
             <img class = "grid-item" src="Images/Finn_Shlumped.jpg" width = "200" alt = "Finn is exhausted after a long day of doing absolutely nothing">
@@ -81,11 +83,11 @@
         </div>
 
         
-        <div class = "grid-item"> <!--Pet #2-->
+        <div class = "grid-item2"> <!--Pet #2-->
             <h1>Cheeto (Chicken)</h1>
             <a class = "center" href="Images/cheeto_cattree.jpg"><img src="Images/cheeto_cattree.jpg" width="400" alt= "Orange cat hanging paws off a cat tower"></a>
-            <p>Cheeto is a cat who likes to eat a lot and play a lot. He has an obsession with his grandpa (human) and tries to get outside every single day. If he isn’t causing problems, he is usually hiding in a seven foot tall cat tree and sleeping.</p>
-            <p>Another name for Cheeto is Chicken, because sometimes he sits very scrunched up and ends up looking like a rotisserie chicken. He was nicknamed this by one of his friends, and now he understands it as his own name. He is about six years old and still acts like a younger cat, despite being middle-aged.</p>
+            <p class = "scroll" >Cheeto is a cat who likes to eat a lot and play a lot. He has an obsession with his grandpa (human) and tries to get outside every single day. If he isn’t causing problems, he is usually hiding in a seven foot tall cat tree and sleeping.</p>
+            <p class = "scroll" >Another name for Cheeto is Chicken, because sometimes he sits very scrunched up and ends up looking like a rotisserie chicken. He was nicknamed this by one of his friends, and now he understands it as his own name. He is about six years old and still acts like a younger cat, despite being middle-aged.</p>
             
             <h3>Photo Gallery</h3>
             <div class = "grid-container">
@@ -105,13 +107,13 @@
             <!--Divya Shankar-->
         </div>
 
-        <div class = "grid-item">
+        <div class = "grid-item2">
             <h1>Milktea</h1>
             <a class = "center" href="Images/Milktea_mirror.jpeg"><img class = "center" src="Images/Milktea_mirror.jpeg" width="400" alt= "Milktea taking nap"></a>
-            <p>
+            <p class = "scroll" >
                 Milktea is a Scottish fold with a personality of a princess. She loves her veggies and refuses to eat anything dropped on the ground. She makes it clear when she has a demand of any sort by complaining in a loud, distinguished manner. If what she says could be translated, it probably would be, “This is atrocious, the water container has been empty for the 3rd time this week. I want to see the manager.”
             </p>
-            <p>
+            <p class = "scroll" >
                 Despite her cuteness and royalty, she actually suffers from a genetic disorder intentionally brought upon by humans. I highly advise against keeping a Scottish fold because they are in constant pain when they reach around 2 years old. Cartilage accumulates around her paw joints and tail joints and it becomes painful for them to even walk. She is living evidence of human’s cruelty of breeding animals to look pretty while sacrificing the animals’ health.  
             </p>
 
@@ -135,13 +137,14 @@
             <!--Olive Ren-->
         </div>
 
-        <div class = "grid-item">
+        <div class = "grid-item2">
             <h1>Cooper</h1>
             <a class = "center" href="Images/cooper.jpeg"><img src ="Images/cooper.jpeg" class = "thumbnail" alt="Border collie and lab mix laying his 
             head on his stuffed animal toy" width="400"></a>
-            <p>Cooper is an 8yr old border collie and lab mix. We rescued him from the Humane Society as a puppy! He loves going on long walks/runs, but he stops to sniff something every few steps. He’s pretty friendly, but he loves to loudly bark at delivery people who ring the doorbell.</p>            
-            <p>Whenever it’s movie night, Cooper has to join on the couch/bed or he feels left out. He loves to cuddle and pats on his tummy. Cooper will play fetch for about 2 or 3 rounds, but he quickly gets bored. He leaves his toys all around the house for the rest of the family to find.</p>
-
+            <div class = "scrollable-paragraph" >
+                <p>Cooper is an 8yr old border collie and lab mix. We rescued him from the Humane Society as a puppy! He loves going on long walks/runs, but he stops to sniff something every few steps. He’s pretty friendly, but he loves to loudly bark at delivery people who ring the doorbell.</p>            
+                <p>Whenever it’s movie night, Cooper has to join on the couch/bed or he feels left out. He loves to cuddle and pats on his tummy. Cooper will play fetch for about 2 or 3 rounds, but he quickly gets bored. He leaves his toys all around the house for the rest of the family to find.</p>
+            </div>
             <h3>Photo Gallery</h3>
             <div class = "grid-container">
             <img class = "item1" src ="Images/cooper_closeup.JPG" alt="Border collie / lab mix putting his face close to the camera" width="200">
@@ -164,8 +167,8 @@
             <h1>Bacon Q Dog</h1>
             <a class = "center" href="Images/bacon.jpg"><img class = "center" src="Images/bacon.jpg" width = "400" alt="Brown labradoodle wearing colorful lei"></a>
 
-            <p>Bacon Q. Dog is a 9yr old labradoodle. He prefers to spend his days lounging among the three different beds/couches that his family has gifted him. He enjoys a walk or two around the neighborhood, as long as he can pretend that he doesn't see any of the other animals to avoid the embarrassment of not wanting to admit he has no wolf-like skills in chasing them.</p> 
-            <P>At night just as the rest of the family is ready to relax, Bacon suddenly wants to release all of his energy. He will place his toys on a mini couch and frantically drag the couch around, giving his toys "a ride." There is also a lot of rolling. Lots and lots of rolling.</P>
+            <p class = "scroll" >Bacon Q. Dog is a 9yr old labradoodle. He prefers to spend his days lounging among the three different beds/couches that his family has gifted him. He enjoys a walk or two around the neighborhood, as long as he can pretend that he doesn't see any of the other animals to avoid the embarrassment of not wanting to admit he has no wolf-like skills in chasing them.</p> 
+            <P class = "scroll" >At night just as the rest of the family is ready to relax, Bacon suddenly wants to release all of his energy. He will place his toys on a mini couch and frantically drag the couch around, giving his toys "a ride." There is also a lot of rolling. Lots and lots of rolling.</P>
             <h3>Photo Gallery</h3>
             <img src="Images/bacon_bandana.JPG" width ="200" alt = "Brown labradoodle wearing an orange bandana">
             <img src="Images/bacon_graduation.JPG"  width ="200" alt="Small labradoodle puppy wearing a graduation cap and gown">
