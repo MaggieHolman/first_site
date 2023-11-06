@@ -174,7 +174,7 @@ ul {
     }
 
     .scroll {
-        max-height: 1px; 
+        max-height: 10px; 
         overflow: auto; 
         border: 1px solid #ccc;
     }
