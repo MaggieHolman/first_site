@@ -4,57 +4,63 @@
     <meta charset="UTF-8">
     <title>Recipe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel = "stylesheet" href ="CSS/reset.css">
     <link rel = "stylesheet" href ="CSS/style.css">
     <script type="txt/javascript" src="JavaScript/javaScript.js"></script>
 
 </head>
-<body>
-    <a href = "#main" id = "skip">Skip to Main</a>
-    <nav id="navbar">
+<a href = "#main" class = "skip-to-content">Skip to Main</a>
+    <nav class="navbar">
         <ul>
             <li><a href = "index.html">Home/Pets</a></li>
+            <i class="fas fa-heart"></i>
             <li><a class = "active" href = "recipes.html">Recipes</a></li>
+            <i class="fas fa-heart"></i>
             <li><a href = "travel.html">Travel</a></li>
+            <i class="fas fa-heart"></i>
         </ul>
     </nav>
+<body>
+<main id = "main">
 <div class = "grid-item">
   <div class = "scrollable-paragraph">
         <h1>Crunchwrap Supreme</h1>
-        <a class = "center" href="Images/Crunchwrap_Supreme.png.png"><img src="Images/Crunchwrap_Supreme.png.png"width = '400' alt="Food"></a>
+        <a class = "center image-container" href="Images/Crunchwrap_Supreme.png.png"><img src="Images/Crunchwrap_Supreme.png.png" class = "slide-in" width = '400' alt="Food"></a>
         <div>The notorious Crunchwrap Supreme created by the infamous Taco Bell.</div>
         <div>Taco Bell is the best fastfood out there. When you're hungry it hits the spot constanlty bursting with flavor.</div>
         <div>Many people might not favor taco bell because of how unhealthy it is but there are many
              taco bell chains out there than actual mexican places.</div>
      <div>
        <h2>Photo Gallery</h2>
-       <a class = "center" href="Images/beef.png.png" ><img src ="Images/beef.png.png" width = '200' alt="Food"></a>
+       <a class = "center image-container" href="Images/beef.png.png" ><img src ="Images/beef.png.png" width = '200' alt="Food"></a>
         <div class = "scroll"> Taco Bell uses the highest quality beef 
             out there in the market. They also season it with their special
              taco bell beef seasoning. Try the crunchwrap supreme because once you try it,
               you can never go back to eating real tacos! It's the TACO BELL EFFECT</div>
      </div>
      <div>
-        <a class = "center" href="Images/Beef_Cheese.png.png" ><img src ="Images/Beef_Cheese.png.png" width = '200' alt="Food"></a>
+        <a class = "center image-container" href="Images/Beef_Cheese.png.png" ><img src ="Images/Beef_Cheese.png.png" width = '200' alt="Food"></a>
         <div class = "scroll"> Taco Bell's beef and cheese are seasoned to the core. 
             That spicy flavor paired with savory melted gooey cheese. The combination of 
             the cheese and beef creates a satisying and comforting taste.</div>
      </div>
      <div>
-        <a class = "center" href="Images/beef.png.png" ><img src ="Images/beef.png.png" width = '200' alt="Food"></a>
+        <a class = "center image-container" href="Images/beef.png.png" ><img src ="Images/beef.png.png" width = '200' alt="Food"></a>
         <div class = "scroll"> With beef and cheese aside, they decorate the crunchwrap 
             supreme with healthy vegetables to balance out the oilyness of the meat.
              They add diced tomatoes, lettuce, sour cream and melted cheese. All of 
              the flavors go so well together and bursting with flavor.</div>
      </div>
      <div>
-        <a class = "center" href="Images/Crunchwrap_Supreme.png.png" ><img src ="Images/Crunchwrap_Supreme.png.png" width = '200' alt="Food"></a>
+        <a class = "center image-container" href="Images/Crunchwrap_Supreme.png.png" ><img src ="Images/Crunchwrap_Supreme.png.png" width = '200' alt="Food"></a>
         <div class = "scroll"> Taco Bell has an iconic fold especially for the crunchwrap supreme. It
              stands out from any other taco created by them and as well as any other 
              mexican place. Who would've thought to create such a meal by folding a quesadilla into a pentagon shape?</div>
      </div>
      <div>
-        <a class = "center" href="Images/Beef_Cheese.png.png" ><img src ="Images/Beef_Cheese.png.png" width = '200' alt="Food"></a>
+        <a class = "center image-container" href="Images/Beef_Cheese.png.png" ><img src ="Images/Beef_Cheese.png.png" width = '200' alt="Food"></a>
         <div class = "scroll"> What makes this dish more iconic than it already is is how they grill it.
              They don't deep fry it or oven bake it except they pan fry it. They panfry
               the crunchwrap supreme until it gets golden cripsy brown.</div>
@@ -77,7 +83,7 @@
         <span>Origin: Japanese</span>
         <span>Source: https://www.justonecookbook.com/green-tea-white-chocolate-cookies/</span>
         <span>Category: Dessert</span>
-        <a class = "center" href="Images/Matcha-Cookies.jpeg"><img src ="Images/Matcha-Cookies.jpeg" width = '400' alt="Food"></a>
+        <a class = "center image-container" href="Images/Matcha-Cookies.jpeg"><img src ="Images/Matcha-Cookies.jpeg" class = "slide-in" width = '400' alt="Food"></a>
         <p class = "scroll">
             These cookies have the perfect flavor balance of the earthiness from the matcha and the sweetness and
             creaminess from
@@ -122,7 +128,11 @@
     <div class = "grid-item">
         <div class = "scrollable-paragraph">
         <h2>Shrimp Scampi</h2>
-        <img src="Images/shrimp_scampi.jpg" alt ="Shrimp scampi is a classic Italian-American delight, where succulent shrimp meet a medley of garlic, butter, and white wine. Sautéed to pink perfection, the shrimp mingle with a fragrant blend of garlic and red pepper flakes. A drizzle of white wine and a squeeze of lemon create a luxurious sauce, embracing the dish's linguine base. With a sprinkle of parsley, it's a harmonious, flavorful masterpiece that exemplifies both simplicity and taste.
+        <a class = "center image-container" href="Images/shrimp_scampi.jpg"></a><img src="Images/shrimp_scampi.jpg" class = "slide-in" alt ="Shrimp scampi is a classic Italian-American delight, 
+        where succulent shrimp meet a medley of garlic, butter, and white wine. Sautéed to pink perfection, 
+        the shrimp mingle with a fragrant blend of garlic and red pepper flakes. A drizzle of white wine and a 
+        squeeze of lemon create a luxurious sauce, embracing the dish's linguine base. With a sprinkle of parsley,
+         it's a harmonious, flavorful masterpiece that exemplifies both simplicity and taste.
         "/>
         <p> Recipe Ingredients </p>
         <p class = "scroll"> 2 tablespoons butter
@@ -140,18 +150,19 @@
             <p> In a large skillet, melt butter with olive oil. Add garlic and sauté until fragrant, about 1 minute. Add wine or broth, salt, red pepper flakes and plenty of black pepper and bring to a simmer. Let the wine reduce by half, about 2 minutes. Add shrimp and sauté until they just turn pink, 2 to 4 minutes depending upon their size. Stir in the parsley and lemon juice and serve over pasta or accompanied by crusty bread.
             </p>
             <p>
-            <img src="Images/pasta_cooking.jpg" alt ="Pasta being lifted by a fork in a pot of boiling water. It is almost finished cooking."/>
+            <a class = "center image-container" href="Images/pasta_cooking.jpg"><img src="Images/pasta_cooking.jpg" alt ="Pasta being lifted by a fork in a pot of boiling water. It is almost finished cooking."/>
             </p>
             <p>
-            <img src="Images/shrimp_scampi_cooking.jpg" alt ="Shrimp cooking in a sauce of butter and wine. It is being stirred with a spoon."/>
+            <a class = "center image-container" href="Images/shrimp_scampi_cooking.jpg"><img src="Images/shrimp_scampi_cooking.jpg" alt ="Shrimp cooking in a sauce of butter and wine. It is being stirred with a spoon."/>
             </p>
             <p>
-            <img src="Images/shrimp_cooking.jpg" alt ="Shrimp is cooking until it is pink. Shrimp is almost finished cooking."/>
+            <a class = "center image-container" href="Images/shrimp_scampi.jpg"><img src="Images/shrimp_cooking.jpg" alt ="Shrimp is cooking until it is pink. Shrimp is almost finished cooking."/>
             </p>
             
         <!-- Anna Torell -->
         </div>
     </div>
+</main>
    </body>
 </html>
 

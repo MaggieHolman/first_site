@@ -23,6 +23,10 @@ h3 {
     text-align: center;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 nav {
     border: 5px solid black;
     background: white;
@@ -49,7 +53,13 @@ img {
 }
 
 #skip {
-    display: none;
+    position: absolute;
+    left: -300px;
+}
+
+#skip:focus {
+    position: absolute;
+    left: 10px;
 }
 
 ul {
@@ -80,6 +90,12 @@ ul {
     background-color: #555;
     color: white;
   }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 30%;
+}
 
   .grid-container {
     display: grid;
@@ -124,22 +140,52 @@ ul {
     place-items: center;
 }
 
+.image-container:hover img {
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.background-container {
+    background-image: url('../Images/OIP.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    /* You can add more background properties as needed */
+}
+
+.skip-to-content {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  .skip-to-content:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    color: #fff;
+  }
+
+.slide-in {
+    transform: translateX(-0%);
+    transition: transform 0.5s ease-in-out;
+}
+  
+.slide-in:hover {
+    transform: translateX(50);
+}
+
+
 @media (max-width: 767px) {
     body {
       font-size: 20px;
       
     }
     
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .animated-element {
-        animation: none; 
-    }
-
-    .gif {
-        display: none; 
-    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -194,7 +240,24 @@ ul {
         background-color: black;
         color: white;
     }
-    
+
+    .likes ul{
+        display: flex;
+    }
+
+    .likes li{
+        margin-right: 40px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animated-element {
+        animation: none; 
+    }
+
+    .gif {
+        display: none; 
+    }
 }
 
 

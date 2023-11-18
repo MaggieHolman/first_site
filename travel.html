@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel = "stylesheet" href ="CSS/reset.css">
     <link rel = "stylesheet" href ="CSS/style.css">
     <script type="txt/javascript" src="JavaScript/javaScript.js"></script>
@@ -10,21 +12,24 @@
     <title>Travel</title>
 </head>
 <body>
-    <a href = "#main" id = "skip">Skip to Main</a>
-    <nav id="navbar">
+    <a href = "#main" class = "skip-to-content">Skip to Main</a>
+    <nav class="navbar">
         <ul>
             <li><a href = "index.html">Home/Pets</a></li>
+            <i class="fas fa-heart"></i>
             <li><a href = "recipes.html">Recipes</a></li>
+            <i class="fas fa-heart"></i>
             <li><a  class = "active" href = "travel.html">Travel</a></li>
+            <i class="fas fa-heart"></i>
         </ul>
     </nav>
 
-    <main>
+    <main id = "main">
         <div class = "grid-item">
             <h1>Grand Canyon</h1>
 
-            <img src="Images/grand_canyon.gif" alt="" style="width:400px;">
-            <img src="Images/grand_canyon.jpg" alt="" style="width:400px;">
+            <a class = "center image-container" href="Images/grand_canyon.gif" ><img src="Images/grand_canyon.gif" alt="" class = "slide-in" style="width:400px;"></a>
+            <a class = "center image-container" href="Images/grand_canyon.jpg" ><img src="Images/grand_canyon.jpg" alt="" class = "slide-in" style="width:400px;"></a>
             
             <h3>Geographical Location: North America</h3>
             <p>The Grand Canyon is a natural geological formation located in the state of Arizona. It is a steep-sided canyon carved by the Colorado River over millions of years. The canyon is known for its size, vibrant and varied colors, and intricate rock formations. It is one of the most famous and visited natural landmarks in the United States and around the world.</p>
@@ -35,31 +40,31 @@
         
             <h3>Photo Gallery </h3>
             <figure>
-                <img src="Images/grand_canyon_sunset_snow.jpg" alt="Sunset with Snowy Cliffs" style="width:200px;">
+                <a class = "center image-container" href="Images/grand_canyon_sunset_snow.jpg" ><img src="Images/grand_canyon_sunset_snow.jpg" alt="Sunset with Snowy Cliffs" style="width:200px;"></a>
                 <figcaption>Overlook the Grand Canyon snowy cliffs while the sun is setting</figcaption>
             </figure>
             
 
             <figure>
-                <img src="Images/grand_canyon_river.jpg" alt="Valley with river" style="width:200px;">
+                <a class = "center image-container" href="Images/grand_canyon_river.jpg" ><img src="Images/grand_canyon_river.jpg" alt="Valley with river" style="width:200px;"></a>
                 <figcaption>Canyon valley river during the day</figcaption>  
             </figure>
             
 
             <figure>
-                <img src="Images/grand_canyon_cliff_people.jpg" alt="People at a cliff" style="width:200px;">
+                <a class = "center image-container" href="Images/grand_canyon_cliff_people.jpg" ><img src="Images/grand_canyon_cliff_people.jpg" alt="People at a cliff" style="width:200px;"></a>
                 <figcaption>Overlooking the rest of the Grand Canyon</figcaption> 
             </figure>
             
             
             <figure> 
-                <img src="Images/grand_canyon_goat.jpg" alt="Goat on a cliff" style="width:200px;">
+                <a class = "center image-container" href="Images/grand_canyon_goat.jpg" ><img src="Images/grand_canyon_goat.jpg" alt="Goat on a cliff" style="width:200px;"></a>
                 <figcaption>A mountain goat looking at the camera standing on top of rocks</figcaption>
             </figure>
             
             
             <figure>
-                <img src="Images/grand_canyon_waterfall.jpg" alt="Waterfall in a valley" style="width:200px;">
+                <a class = "center image-container" href="Images/grand_canyon_waterfall.jpg" ><img src="Images/grand_canyon_waterfall.jpg" alt="Waterfall in a valley" style="width:200px;"></a>
                 <figcaption>Canyon valley waterfall with trees</figcaption>
             </figure>
             <!-- Anna Hou -->
@@ -68,24 +73,24 @@
         <div class = "grid-item">
             <h2>Banff</h2>
             <h2>Geographical location: North America</h2>
-            <img src="Images/banff.jpg" width = "400" alt = "Beautiful lake at Banff"/>
-            <img src="Images/banff.gif" width = "400" alt = "GIF of a lake at Banff National Park"/>
+            <a class = "center image-container" href="Images/banff.jpg" ><img src="Images/banff.jpg" class = "slide-in" width = "400" alt = "Beautiful lake at Banff"/></a>
+            <a class = "center image-container" href="Images/banff.gif" ><img src="Images/banff.gif" width = "400" alt = "GIF of a lake at Banff National Park"/></a>
             <p>Banff is Canada’s first national park. The park spans 2,564 square miles. Here you can see the Rocky Mountain peaks and beautiful turquoise glacial lakes.</p>
             <p>In addition to the magnificent nature of Banff, there are many things to explore in the downtown area. Banff Avenue and Bear Street have many stores to enjoy shopping. You can also learn of the natural and cultural history by visiting many museums and historical sites.</p>
             
             <h3>Photo Gallery</h3>
-            <img class="thumbnail" src ="Images/banff_lake_summer.jpg" width= "200" alt = "Lake at Banff in summer"/>
-            <img src ="Images/banff_town.jpg" width = "200" alt = "Banff downtown"/>
-            <img src ="Images/banff_winter.jpg" width = "200" alt = "Beautiful Banff in winter"/>
-            <img src ="Images/moraine_lake_banff.jpg" width = "200" alt = "Moraine lake at Banff"/>
-            <img src ="Images/banff.jpg"width = "200" alt = "Canoeing in Banff"/>
+            <a class = "center image-container" href="Images/banff_lake_summer.jpg" ><img class="thumbnail" src ="Images/banff_lake_summer.jpg" width= "200" alt = "Lake at Banff in summer"/></a>
+            <a class = "center image-container" href="Images/banff_town.jpg" ><img src ="Images/banff_town.jpg" width = "200" alt = "Banff downtown"/></a>
+            <a class = "center image-container" href="Images/banff_winter.jpg" ><img src ="Images/banff_winter.jpg" width = "200" alt = "Beautiful Banff in winter"/></a>
+            <a class = "center image-container" href="Images/moraine_lake_banff.jpg" ><img src ="Images/moraine_lake_banff.jpg" width = "200" alt = "Moraine lake at Banff"/></a>
+            <a class = "center image-container" href="Images/banff.jpg" ><img src ="Images/banff.jpg"width = "200" alt = "Canoeing in Banff"/></a>
             
             <!-- Abby Lee -->
         </div>
         <div class = "grid-item">
             <h2>Yellowstone</h2>
-            <img src="Images/yellowstone_cauldron.gif" width="400" alt="Bubbling cauldron.">
-            <img src="Images/yellowstone_cauldron.jpg" width = "400" alt="Bubbling cauldron">
+            <a class = "center image-container" href="Images/yellowstone_cauldron.gif" ><img src="Images/yellowstone_cauldron.gif" class = "slide-in" width="400" alt="Bubbling cauldron."></a>
+            <a class = "center image-container" href="Images/yellowstone_cauldron.jpg" ><img src="Images/yellowstone_cauldron.jpg" class = "slide-in" width = "400" alt="Bubbling cauldron"></a>
 
             <h3>Geographical Location: North America</h3>
             <p>Yellowstone is the first national park in the United States. It covers over 2.2 million acres, and provides an opportunity to see wildlife and explore geothermal areas.  In fact, Yellowstone contains about half the world's active geysers.</p>
@@ -93,12 +98,12 @@
 
             <h3>Photo Gallery</h3>
             <figure>
-                <img src="Images/yellowstone_travertine.JPG" width = "200" alt="A large mound of multi-colored travertine">
+                <a class = "center image-container" href="Images/yellowstone_travertine.JPG" ><img src="Images/yellowstone_travertine.JPG" width = "200" alt="A large mound of multi-colored travertine"></a>
                 <figcaption>Mammoth Hot Springs has a number of actively forming Travertine terraces.</figcaption>
             </figure>
 
             <figure>
-                <img src="Images/yellowstone_sunset.jpg" width = "200" alt="Sunset over mountains with some charred trees in the foreground">
+                <a class = "center image-container" href="Images/yellowstone_sunset.jpg" ><img src="Images/yellowstone_sunset.jpg" width = "200" alt="Sunset over mountains with some charred trees in the foreground"></a>
                 <figcaption>The drive to Lamar Valley requires some dangerous roads.  But the result is amazing sunset views.</figcaption>
             </figure>
 
@@ -119,7 +124,7 @@
             </figure>
 
             <figure>
-                <img src="Images/yellowstone_sulphur_springs.JPG" width = "200" alt="A large spring with clouds of sulfur smoke rising from it.">
+                <a class = "center image-container" href="Images/yellowstone_sulphur_springs.JPG" ><img src="Images/yellowstone_sulphur_springs.JPG" width = "200" alt="A large spring with clouds of sulfur smoke rising from it."></a>
                 
                 <figcaption>If you can handle the odor, the Yellowstone Sulphur Springs is a great place to hike.</figcaption>
             </figure>
@@ -127,30 +132,30 @@
         </div>
         <div class = "grid-item">
             <h2>  Nanjing Fuzi-Qinhuai </h2>
-            <img src="Images/nanjing.gif" width = 400 alt = "qinhuai river git at night"> 
-            <img src = "Images/nj_huafang.JPG" width = 400 alt = "qinhuai river photo at night">
+            <a class = "center image-container" href="Images/nanjing.gif" ><img src="Images/nanjing.gif" width = 400 alt = "qinhuai river git at night"></a>
+            <a class = "center image-container" href="Images/nj_huafang.JPG" ><img src = "Images/nj_huafang.JPG" class = "slide-in" width = 400 alt = "qinhuai river photo at night"></a>
             <p>Nanjing is a popular city full of Chinese history and old traditional southern kinds of agriculture. As a northern people from China, Nanjing was the first city that I traveled to the region south of the Yangtze River. Confucius Temple - Qinhuai River is the most famous place to show the beauty of Nanjing.</p>
             <p>Confucius temple has many traditional temple agricultures inside and many small shops about traditional Nanjing specialties and popular restaurants. There are also many colorful traditional lanterns which made the night of qinhuai more gorgeous. People can also take the “Hua Fang” ( a special kind of ship) to travel around the river and the whole scenery.  </p>
             
             <h3>Photo Gallery</h3>
             <figure> 
-                <img src = "Images/nj_dragon.JPG"  width = 200 alt = "Two dragons playing with beads carved on the dragon wall of a traditional Chinese building"> 
+                <a class = "center image-container" href="Images/nj_dragon.JPG" ><img src = "Images/nj_dragon.JPG"  width = 200 alt = "Two dragons playing with beads carved on the dragon wall of a traditional Chinese building"></a> 
                 <figcaption> Taken in the evening on the other side of the Qinhuai River. </figcaption>
             </figure>
             <figure> 
-                <img src = "Images/nj_huafang.JPG"  width = 200 alt = "The Huafang ship of Qinhuai River for visitors"> 
+                <a class = "center image-container" href="Images/nj_huafang.JPG" ><img src = "Images/nj_huafang.JPG"  width = 200 alt = "The Huafang ship of Qinhuai River for visitors"></a>
                 <figcaption> At About 7 pm at night when the lights and lanterns turn on.</figcaption>
             </figure>
             <figure> 
-                <img src = "Images/nj_lantern.JPG"  width = 200 alt = "Various of beautiful hand-made lanterns for blessing"> 
+                <a class = "center image-container" href="Images/nj_lantern.JPG" ><img src = "Images/nj_lantern.JPG"  width = 200 alt = "Various of beautiful hand-made lanterns for blessing"></a>
                 <figcaption>  Inside the Jiangnan Examination Hall at night.</figcaption>
             </figure>
             <figure>
-                <img src = "Images/nj_qhriver.JPG"  width = 200 alt = "The ancient building corridor on both sides of the Qinhuai River">
+                <a class = "center image-container" href="Images/nj_qhriver.JPG" ><img src = "Images/nj_qhriver.JPG"  width = 200 alt = "The ancient building corridor on both sides of the Qinhuai River"></a>
                 <figcaption>  At night stand on the side of the corridor.</figcaption>
             </figure>
             <figure> 
-                <img src = "Images/nj_temple.JPG"  width = 200 alt = "The temple  people burn incense and pray for success in the exam"> 
+                <a class = "center image-container" href="Images/nj_temple.JPG" ><img src = "Images/nj_temple.JPG"  width = 200 alt = "The temple  people burn incense and pray for success in the exam"></a>
                 <figcaption> Upward view at night inside the Jiangnan Examination Hall. </figcaption>
             </figure>
             <!--Sophy Ji-->
@@ -158,8 +163,8 @@
         <div>
             <div class = "grid-item">
                 <h2>Ari Atoll, Maldives</h2>
-                <img src="Images/maldives.gif" width="400" alt="hammock swinging in beach">
-                <img src="Images/maldives_aerial.jpeg" width="400" alt="aerial view of houses on water">
+                <a class = "center image-container" href="Images/maldives.gif" ><img src="Images/maldives.gif" class = "slide-in" width="400" alt="hammock swinging in beach"></a>
+                <a class = "center image-container" href="Images/maldives_aerial.jpeg" ><img src="Images/maldives_aerial.jpeg" class = "slide-in" width="400" alt="aerial view of houses on water"></a>
     
                 <h3>Geographical Location: Asia</h3>
                 <p>Maldives is an archipelagic state and country in South Asia, situated in the Indian Ocean. It lies southwest of Sri Lanka and India, about 750 kilometres (470 miles; 400 nautical miles) from the Asian continent's mainland. The Maldives' chain of 26 atolls stretches across the equator from Ihavandhippolhu Atoll in the north to Addu Atoll in the south.</p>
@@ -167,27 +172,27 @@
     
                 <h3>Photo Gallery </h3>
                 <figure>
-                    <img src="Images/maldives_hotel.jpeg" width = "200" alt="A maldives hotel with multiple suites lined up on the right and a central boardwalk">    
+                    <a class = "center image-container" href="Images/maldives_hotel.jpeg" ><img src="Images/maldives_hotel.jpeg" width = "200" alt="A maldives hotel with multiple suites lined up on the right and a central boardwalk"></a>
                     <figcaption>One of several maldivian hotels, all built right over the ocean.</figcaption>
                 </figure>
     
                 <figure>
-                    <img src="Images/maldives_diving.jpeg" width = "200" alt="A scuba diver diving in the Maldives along a vibrant reef">
+                    <a class = "center image-container" href="Images/maldives_diving.jpeg" ><img src="Images/maldives_diving.jpeg" width = "200" alt="A scuba diver diving in the Maldives along a vibrant reef"></a>
                     <figcaption>Exploring the gorgeous reefs of Maldives</figcaption>
                 </figure>
     
                 <figure>
-                    <img src="Images/maldives_restaurant.jpeg" width = "200" alt="Interior of a luxury dining restaurant in Maldives overlooking the ocean">
+                    <a class = "center image-container" href="Images/maldives_restaurant.jpeg" ><img src="Images/maldives_restaurant.jpeg" width = "200" alt="Interior of a luxury dining restaurant in Maldives overlooking the ocean"></a>
                     <figcaption>Maldives offers wonderful dining experience</figcaption>
                 </figure>
     
                 <figure>
-                    <img src="Images/maldives_hammock.webp" width = "200" alt="A hammock on the beach besides the clear blue waters of Maldives">
+                    <a class = "center image-container" href="Images/maldives_hammock.webp" ><img src="Images/maldives_hammock.webp" width = "200" alt="A hammock on the beach besides the clear blue waters of Maldives"></a>
                     <figcaption>Lazy days on the beach</figcaption>
                 </figure>
     
                 <figure>
-                    <img src="Images/maldives_glowing.jpeg" width = "200" alt="The bioluminescent glowing beach of Maldives where the waters glow blue">
+                    <a class = "center image-container" href="Images/maldives_glowing.jpeg" ><img src="Images/maldives_glowing.jpeg" width = "200" alt="The bioluminescent glowing beach of Maldives where the waters glow blue"></a>
                     <figcaption>Biological splendors on the island shores</figcaption>
                 </figure> 
     
